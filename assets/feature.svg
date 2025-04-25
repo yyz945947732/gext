@@ -1,0 +1,47 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Comic Sans MS', cursive">
+  <style>
+    .hand {
+      fill: none;
+      stroke: black;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .label {
+      font-size: 16px;
+    }
+  </style>
+
+  <!-- Before -->
+  <rect x="40" y="40" width="300" height="300" rx="15" ry="15" class="hand"/>
+  <text x="55" y="70" class="label">your-folder</text>
+  <text x="60" y="110">📄 photo1.jpg</text>
+  <text x="60" y="140">📄 photo2.jpg</text>
+  <text x="60" y="170">📄 document1.pdf</text>
+  <text x="60" y="200">📄 script1.js</text>
+  <text x="60" y="230">📄 archive.zip</text>
+  <text x="60" y="260">📄 notes.txt</text>
+
+  <!-- Arrow -->
+  <line x1="360" y1="190" x2="440" y2="190" class="hand"/>
+  <polygon points="440,185 450,190 440,195" fill="black"/>
+
+  <!-- After -->
+  <rect x="470" y="40" width="300" height="300" rx="15" ry="15" class="hand"/>
+  <text x="485" y="70" class="label">your-folder</text>
+  <text x="490" y="100">📁 jpg /</text>
+  <text x="510" y="120">📄 photo1.jpg</text>
+  <text x="510" y="140">📄 photo2.jpg</text>
+
+  <text x="490" y="170">📁 pdf /</text>
+  <text x="510" y="190">📄 document1.pdf</text>
+
+  <text x="490" y="210">📁 js /</text>
+  <text x="510" y="230">📄 script1.js</text>
+
+  <text x="490" y="250">📁 zip /</text>
+  <text x="510" y="270">📄 archive.zip</text>
+
+  <text x="490" y="290">📁 txt /</text>
+  <text x="510" y="310">📄 notes.txt</text>
+</svg>
