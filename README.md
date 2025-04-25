@@ -1,10 +1,10 @@
-# gext
+# group-by-ext
 
 <p>
-  <a href="https://www.npmjs.com/package/gext">
-    <img src="https://img.shields.io/npm/v/gext.svg" alt="Version" />
+  <a href="https://www.npmjs.com/package/group-by-ext">
+    <img src="https://img.shields.io/npm/v/group-by-ext.svg" alt="Version" />
   </a>
-  <a href="https://github.com/yyz945947732/gext/pulls">
+  <a href="https://github.com/yyz945947732/group-by-ext/pulls">
     <img
       src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"
       alt="PRs Welcome"
@@ -23,7 +23,7 @@
 ## Install
 
 ```bash
-npm install --global gext
+npm install --global group-by-ext
 ```
 
 ## Usage
@@ -62,7 +62,7 @@ npx gext --include=js,ts
 
 ## LICENSE
 
-[MIT](https://github.com/yyz945947732/gext/blob/master/LICENSE)
+[MIT](https://github.com/yyz945947732/group-by-ext/blob/master/LICENSE)
 
 ---
 

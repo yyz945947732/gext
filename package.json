@@ -1,8 +1,8 @@
 {
-  "name": "gext",
+  "name": "group-by-ext",
   "version": "1.0.0",
   "description": "A simple CLI tool that groups files by extension in the current folder — great for quick cleanup and organization.",
-  "homepage": "https://github.com/yyz945947732/gext",
+  "homepage": "https://github.com/yyz945947732/group-by-ext",
   "scripts": {
     "start": "node ./bin/index.js",
     "lint": "biome check --apply-unsafe ./lib && biome format --write ./lib"
@@ -18,12 +18,12 @@
     "lib"
   ],
   "bugs": {
-    "url": "https://github.com/yyz945947732/gext/issues",
+    "url": "https://github.com/yyz945947732/group-by-ext/issues",
     "email": "945947732@qq.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yyz945947732/gext.git"
+    "url": "git+https://github.com/yyz945947732/group-by-ext.git"
   },
   "dependencies": {
     "fs-extra": "^11.1.1",
