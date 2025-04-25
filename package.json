@@ -33,5 +33,10 @@
   "devDependencies": {
     "@types/fs-extra": "^11.0.1",
     "@biomejs/biome": "^1.1.2"
-  }
+  },
+  "keywords": [
+    "file group ext",
+    "file group",
+    "file"
+  ]
 }
