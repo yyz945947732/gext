@@ -55,12 +55,6 @@ npx gext --include js ts
 
 # Exclude image files like JPG and PNG from grouping
 npx gext --exclude jpg png
-
-# Combine include and exclude: only handle 'js', but exclude 'test.js'
-npx gext --include js --exclude test
-
-# Use comma-separated values
-npx gext --include=js,ts
 ```
 
 ## LICENSE
